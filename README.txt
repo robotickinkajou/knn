@@ -25,7 +25,7 @@ Accuracies:
 
 - iris.csv: [.955,1.0076]
 - mnist_100.csv: [.7951,.9382]
-- mnist_1000.csv: [.8930,9864]
+- mnist_1000.csv: [.8930,.9864]
 - monks1.csv: 1
 
 3. My accuracies differed by six percent, with the mnist_1000.csv having a higher accuracy of 93.97%. I think this is a result of the mnist_1000.csv having a significantly larger data set.
