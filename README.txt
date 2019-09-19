@@ -1,0 +1,30 @@
+Maya Zoe Shanmugam
+—————————
+I have adhered to the Honor Code in this assignment 
+
+I didn’t really get the chance to finish this. Overall, this was challenging because I haven’t programmed in a while and am essentially learning python. Otherwise, I think this would’ve been fairly straightforward!That being said, this assignment was fun and I enjoyed learning about knn. 
+
+I also don’t really understand the confidence interval math. Unless I managed to finish and forgot to update this file, assume that the accuracies below are made with my getAccuracy() function. 
+
+—————QUESTIONS————————
+
+1. Random Seed: 23352
+   Percent Training: 0.64
+
+Accuracies:
+- iris.csv: 98.13% 
+- mnist_100.csv: 86.67%
+- mnist_1000.csv: 93.97%
+- monks1.csv: 100%
+
+2. 
+
+3. My accuracies differed by six percent, with the mnist_1000.csv having a higher accuracy of 93.97%. I think this is a result of the mnist_1000.csv having a significantly larger data set.
+
+4.
+file:  iris.csv
+k = 15: 98.15%
+K = 45: 90.74%
+K = 90: 48.15%
+I think the accuracy drastically changed because of the size of the data set. Remember that iris has only 150 rows. So the first k is 10% of the set, the second is 30%, and the last is 60%. Thus, we are drastically affecting the accuracy values as we are allowing more and more neighbors to be included. If the majority of the dataset is included as neighbors, then naturally we will end up with a lower accuracy. 
+ 
